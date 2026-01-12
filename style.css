@@ -23,9 +23,10 @@ body {
     padding: 12px 22px;
     border-radius: 5px;
     cursor: pointer;
+    transition: background 0.3s ease;
 }
 .btn-primary:hover {
-    background: #aca7c7;
+    background: #001be5;
 }
 
 .btn-outline {
@@ -35,6 +36,11 @@ body {
     background: transparent;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn-outline:hover {
+    background: #0a3bfd;
+    color: #fff;
 }
 
 /* Header */
